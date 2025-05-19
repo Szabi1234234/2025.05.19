@@ -18,18 +18,9 @@ class Student():
 
 
 
-tivadar = Student("El tivadar", 16, "male")
-leila = Student("leila ", "female")
+
 
 
 
 #print(f"név :{tivadar.name} kor: {tivadar.age} score : {tivadar.score}")
 
-tivadar.introduce()
-tivadar.learn(12)
-tivadar.introduce()
-
-
-leila.introduce()
-leila.learn(-2)
-leila.introduce()
