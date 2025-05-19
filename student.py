@@ -6,6 +6,10 @@ class Student:
 
     def introduce(self):
         print(f"név :{self.name} kor: {self.age} score : {self.score}")
+    def learn(self, points):
+        self.score += points
+
+
 
 
 tivadar = Student()
@@ -19,4 +23,6 @@ tivadar.score = 20
 
 #print(f"név :{tivadar.name} kor: {tivadar.age} score : {tivadar.score}")
 
+tivadar.introduce()
+tivadar.learn(12)
 tivadar.introduce()
